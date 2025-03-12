@@ -9,7 +9,7 @@
 
 /* Light Mode (Default) */
 :root {
-  --bg-color: #e2e2e2;
+  --bg-color: #b185db;
   --container-bg: #fff;
   --text-color: #333;
   --button-bg: #512da8;
@@ -20,7 +20,7 @@
 
 /* Dark Mode */
 .dark-mode {
-  --bg-color: #1a1a2e;
+  --bg-color: #2d1b58;
   --container-bg: #2e2e4f;
   --text-color: #e2e2e2;
   --button-bg: #8a2be2;
