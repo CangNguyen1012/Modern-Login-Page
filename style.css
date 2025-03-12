@@ -9,28 +9,36 @@
 
 /* Light Mode (Default) */
 :root {
-  --bg-color: #b185db;
+  --bg-color: linear-gradient(
+    to right,
+    #b185db,
+    #7c4dff
+  ); /* Light Purple Gradient */
   --container-bg: #fff;
   --text-color: #333;
   --button-bg: #512da8;
-  --toggle-bg: linear-gradient(to right, #5c6bc0, #512da8);
+  --toggle-bg: linear-gradient(to right, #957dcd, #6a5acd);
   --input-bg: #eee;
   --shadow: rgba(0, 0, 0, 0.35);
 }
 
 /* Dark Mode */
 .dark-mode {
-  --bg-color: #2d1b58;
+  --bg-color: linear-gradient(
+    to right,
+    #2d1b58,
+    #4b0082
+  ); /* Dark Purple Gradient */
   --container-bg: #2e2e4f;
   --text-color: #e2e2e2;
   --button-bg: #8a2be2;
-  --toggle-bg: linear-gradient(to right, #4b0082, #8a2be2);
+  --toggle-bg: linear-gradient(to right, #301934, #8549a7);
   --input-bg: #3a3a5f;
   --shadow: rgba(255, 255, 255, 0.1);
 }
 
 body {
-  background-color: var(--bg-color);
+  background: var(--bg-color);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -52,6 +60,7 @@ body {
 }
 
 .container h1,
+.container h2,
 .container span,
 .container p,
 .container a {
